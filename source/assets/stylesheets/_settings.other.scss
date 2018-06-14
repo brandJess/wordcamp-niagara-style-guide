@@ -45,9 +45,9 @@ $site-logo-path:                url('https://s.w.org/about/images/logos/wordpres
 // $site-logo-path:                url('https://2017.europe.wordcamp.org/files/2016/11/logo-wceu17-dark-icon.png'); // Logo image
 
 /* Hero */
-$site-hero-path-small:          url('https://pixabay.com/en/photos/download/grapes-690977_1920.jpg'); // Background image
-$site-hero-path-large:          url('https://pixabay.com/en/photos/download/grapes-690977_1920.jpg'); // Background image
-$site-hero-background:          tint($color-brand-secondary, 90%); // Hero color background
+$site-hero-path-small:          url('https://2018.niagara.wordcamp.org/files/2018/06/grapes-1844745_1920.jpg'); // Background image
+$site-hero-path-large:          url('https://2018.niagara.wordcamp.org/files/2018/06/grapes-1844745_1920.jpg'); // Background image
+$site-hero-background:          tint($color-brand-primary, 90%); // Hero color background
 $site-hero-overlay:             .8; // Image overlay color opacity
 
 /* Media queries */

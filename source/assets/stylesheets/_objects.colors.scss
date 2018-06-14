@@ -13,7 +13,7 @@
 
   @include font-size(18);
   line-height: 1.5;
-  font-family: $helvetica;
+  font-family: $montserrat;
   text-transform: none;
 
 }
@@ -69,7 +69,7 @@
 
     @include font-size(16);
     line-height: 1.5;
-    font-family: $helvetica;
+    font-family: $montserrat;
 
   }
 
@@ -79,7 +79,7 @@
 
     @include font-size(13);
     line-height: 1.4;
-    font-family: $monospace;
+    font-family: $varela;
     @include font-feature-settings(normal);
 
   }
@@ -101,7 +101,7 @@
 .cc__title {
 
   font-weight: $bold;
-  font-family: $helvetica;
+  font-family: $montserrat;
 
 }
 .cc__variable {

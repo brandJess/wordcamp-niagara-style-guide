@@ -214,10 +214,10 @@
 
 /* Brand */
 
-$color-brand-primary:             #d3461f;
-$color-brand-secondary:           #00b09c;
-$color-brand-tertiary:            #1d242a;
-$color-brand-quaternary:          #222;
+$color-brand-primary:             #2B0D3D;
+$color-brand-secondary:           #4D2B8A;
+$color-brand-tertiary:            #D1C646;
+$color-brand-quaternary:          #2DAB44;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
@@ -248,7 +248,7 @@ $color-text-strong-invert:        rgba(255,255,255,.9);
  * Links
  */
 
-$color-link:                 $color-brand-primary;
+$color-link:                 $color-brand-secondary;
 $color-link-hover:           shade($color-link, 10%);
 $color-link-focus:           shade($color-link, 20%);
 $color-link-visited:         tint($color-link, 20%);
@@ -263,7 +263,7 @@ $color-link-visited:         tint($color-link, 20%);
  * Alternate links
  */
 
-$color-link-alt:             $color-brand-secondary;
+$color-link-alt:             $color-brand-quaternary;
 $color-link-alt-hover:       mix($color-link-alt, #000, 90%);
 $color-link-alt-focus:       mix($color-link-alt, #000, 70%);
 $color-link-alt-visited:     mix($color-link-alt, #fff, 50%);
@@ -334,14 +334,14 @@ $color-message-danger:            #f04e3e;
  */
 
 $color-input-regular:             $color-border-strong;
-$color-input-focus:               $color-brand-primary;
+$color-input-focus:               mix($color-brand-tertiary,#FFF, 50%);
 $color-input-success:             #00a664;
 $color-input-error:               $color-message-danger;
 $color-input-required:            mix($color-message-danger, #000, 75%);
 $color-input-checkbox:            $color-border-strong;
-$color-input-checkbox-active:     $color-brand-primary;
+$color-input-checkbox-active:     $color-brand-secondary;
 $color-input-radio:               $color-border-strong;
-$color-input-radio-active:        $color-brand-primary;
+$color-input-radio-active:        $color-brand-secondary;
 
 @include cc($color-input-regular, 'color-input-regular');
 @include cc($color-input-focus, 'color-input-focus');
@@ -358,13 +358,13 @@ $color-input-radio-active:        $color-brand-primary;
  * Buttons
  */
 
-$color-button-regular:            $color-grey-10;
-$color-button-regular-hover:      $color-grey-20;
+$color-button-regular:            $color-brand-quaternary;
+$color-button-regular-hover:      shade($color-brand-quaternary, 20%);
 $color-button-primary:            $color-brand-primary;
-$color-button-primary-hover:      shade($color-button-primary, 10%);
+$color-button-primary-hover:      mix($color-button-primary, #FFF, 90%);
 $color-button-secondary:          $color-brand-secondary;
 $color-button-secondary-hover:    shade($color-button-secondary, 10%);
-$color-button-invert:             #fff;
+$color-button-invert:             $color-brand-tertiary;
 $color-button-invert-hover:       mix($color-button-invert, #000, 90%);
 $color-button-inactive:           #eeeeee;
 
@@ -373,7 +373,7 @@ $color-button-inactive:           #eeeeee;
  * Helper colors
  */
 
-$color-text-heading-1:            $color-brand-tertiary;
+$color-text-heading-1:            $color-brand-secondary;
 $color-text-heading-2:            $color-text-strong;
 $color-text-heading-3:            $color-text-strong;
 $color-text-heading-4:            $color-text-strong;

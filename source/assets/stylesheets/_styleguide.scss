@@ -5,8 +5,8 @@
  */
 
 /* Define basic variables and colors */
-$styleguide-color-main: #FF9505;
-$styleguide-color-link: #EC4E20;
+$styleguide-color-main: #2B0D3D;
+$styleguide-color-link: #D1C646;
 $styleguide-color-link-alt: red;
 $styleguide-color-weak: rgba(0,0,0,.7);
 $styleguide-color-strong: rgba(0,0,0,.9);
@@ -112,7 +112,7 @@ $styleguide-border-radius-small: 3px;
 
     @include font-size(16);
     line-height: 1.5;
-    font-family: $helvetica;
+    font-family: $montserrat;
     font-weight: $bold;
     color: #444;
     text-transform: none;
@@ -154,7 +154,7 @@ $styleguide-border-radius-small: 3px;
     @include font-size(16);
     line-height: 1.5;
     font-weight: $bold;
-    font-family: $helvetica;
+    font-family: $montserrat;
     color: rgba(0,0,0,.9);
 
     border-left: 4px solid $styleguide-color-main;
@@ -194,7 +194,7 @@ $styleguide-border-radius-small: 3px;
     @include font-size(14);
     line-height: 1.5;
     font-weight: $bold;
-    font-family: $helvetica;
+    font-family: $varela;
     color: rgba(0,0,0,.9);
 
   }
@@ -206,7 +206,7 @@ $styleguide-border-radius-small: 3px;
     @include font-size(14);
     line-height: 1.5;
     font-weight: $regular;
-    font-family: $helvetica;
+    font-family: $varela;
     color: rgba(0,0,0,.7);
 
   }
@@ -270,7 +270,7 @@ $styleguide-border-radius-small: 3px;
   > p,
   > ul li {
 
-    font-family: $helvetica;
+    font-family: $varela;
     @include font-size(16);
     line-height: 1.5;
     color: #444;

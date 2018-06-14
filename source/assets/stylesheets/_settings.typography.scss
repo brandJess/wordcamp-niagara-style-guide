@@ -5,19 +5,31 @@
 //
 // Write about your typography choices for this WordCamp.
 //
-// **Typeface Name** is used as the font for WordCamp logo and for all headlines.
+// **Montserrat Bold** is used as the font for WordCamp logo and for all headlines.
 //
-// **Typeface Name** is used for body text, buttons, forms etc.
+// **Varela Round** is used for body text, buttons, forms etc.
 //
 // Style guide: 1.typography
+
+/// Montserrat font stack.
+///
+/// @type List
+
+$montserrat: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+
+/// Varela Round font stack.
+///
+/// @type List
+
+$varela: "Varela Round", "Helvetica", "Roboto", "Arial", sans-serif;
 
 /* Modular scale */
 $ms-base: 1em;
 $ms-ratio: 1.25;
 
 /* Fonts */
-$font-brand-primary:              $helvetica;
-$font-brand-secondary:            $helvetica;
+$font-brand-primary:              $varela;
+$font-brand-secondary:            $montserrat;
 
 /* Font use case */
 $font-body:                       $font-brand-primary;

@@ -148,6 +148,7 @@
   @include clearfix();
 
   text-align: center;
+  background: $color-brand-primary;
 
   @include breakpoint(small) {
 
@@ -178,7 +179,7 @@
   margin: 0;
   display: block;
 
-  font-family: $font-headline;
+  font-family: $montserrat;
   font-size: ms(0);
   font-weight: $bold;
   text-align: left;
@@ -199,7 +200,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-link;
+  color: rgba(255,255,255,.9);
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -210,7 +211,7 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong;
+    color: $color-brand-tertiary;
     background-color: $color-link-hover;
 
   }
@@ -231,7 +232,7 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong;
+  color: $color-brand-tertiary;
   background-color: $color-link;
 
 }
@@ -286,7 +287,7 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong;
+      color: $color-brand-tertiary;
       background-color: $color-link;
 
       &:after {
@@ -306,7 +307,7 @@
 
     &.current-menu-item > a:after {
 
-      border-top-color: $color-text-strong;
+      border-top-color: $color-brand-tertiary;
 
     }
 
@@ -322,7 +323,7 @@
 
     text-transform: none;
     font-weight: $regular;
-    font-family: $font-body;
+    font-family: $varela;
 
   }
 
@@ -374,7 +375,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-text;
+      color: rgba(255,255,255,.9);
 
     }
 

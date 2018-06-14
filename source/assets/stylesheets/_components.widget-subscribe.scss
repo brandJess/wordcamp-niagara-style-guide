@@ -21,7 +21,7 @@
 
   .widget-title {
 
-    color: $color-brand-secondary;
+    color: $color-brand-primary;
   }
 
   p {
@@ -40,7 +40,7 @@
   input[type="submit"] {
 
     width: 100%;
-    color: $color-text;
+    color: rgba(255,255,255,.9);
     text-transform: uppercase;
     background-color: $color-button-primary;
 
@@ -48,7 +48,7 @@
     &:focus,
     &:active {
 
-      color: $color-text-strong;
+      color: rgba(255,255,255,.9);
       background-color: $color-button-primary-hover;
 
     }
